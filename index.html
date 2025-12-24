@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sweetie</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bg-music" loop>
+        <source src="musik.mp3" type="audio/mpeg">
+    </audio>
+
+    <section id="landing-page" class="active">
+        <div class="content">
+            <h1 class="title">Selamat Ulang Tahun,<br>Bunga Terindah Dalam Hidupku 🌹</h1>
+            <p class="subtitle">Hari ini dunia terasa lebih indah, karena kamu lahir ke dunia.</p>
+            <button onclick="goToHallway()">Ayo kita Jelajahi lebih lanjut Sweetie 🤍</button>
+        </div>
+        </section>
+
+    <section id="hallway" class="hidden">
+        <h2>Silakan Pilih Pintunya, Cantik 💕</h2>
+        <div class="door-container">
+            <div class="door-wrapper" onclick="openRoom('room1')">
+                <div class="door">
+                    <div class="knob"></div>
+                    <span class="sign">About You 🌷</span>
+                </div>
+            </div>
+            <div class="door-wrapper" onclick="openRoom('room2')">
+                <div class="door">
+                    <div class="knob"></div>
+                    <span class="sign">Our Story 💕</span>
+                </div>
+            </div>
+            <div class="door-wrapper" onclick="openRoom('room3')">
+                <div class="door">
+                    <div class="knob"></div>
+                    <span class="sign">With All My Love 🌸</span>
+                </div>
+            </div>
+            <div class="door-wrapper" onclick="openRoom('room4')">
+                <div class="door">
+                    <div class="knob"></div>
+                    <span class="sign">With All My Hopes 🌼</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="room1" class="room hidden">
+        <button class="back-btn" onclick="backToHallway()">⬅ Kembali</button>
+        <div class="room-content">
+            <h2>About You 🌷</h2>
+            <p>Halooo adekkkk…</p>
+            <p>dengan nama lengkap yang adekk miliki Annisa Nur Azizah, orang-orang sering memanggil adekk dengan berbagai nama. Tapi bagi abanggg, adekk selalu punya satu nama paling istimewa, Nara. Nama yang setiap kali abang sebut, rasanya selalu bikin hati lembut sendiri. Kadang, abang manggil adekk sweetie, honey, atau sayaaaaanggg. dan abang menyukai semua panggilan tersebut</p>
+            <p>Adekk suka sekali sama Kpop, dan ENHYPEN punya tempat khusus di hati adekk. Setiap kali adekk cerita soal Jay Park, mata adekk selalu berbinar, seperti lagi ngomongin hal paling membahagiakan di dunia. Adekk juga suka tenggelam di webtoon, dan Kylo Grey dari The Incognito Princess itu benar-benar karakter favorit adekk. Abang suka melihat bagaimana adekk bisa menyukai sesuatu dengan sepenuh hati.</p>
+            <p>Bahasa Inggris adalah dunia adekk. Adekk bukan cuma suka, tapi juga jago dan sering jadi guru bahasa Inggris. Melihat postingan adekk yang sedang mengajar itu rasanya beda, adekk terlihat percaya diri, pintar, dan bercahaya dengan caranya sendiri.</p>
+            <p>Sifat yang paling abang kagumi adalah ambisius yang adekk miliki. Kalau adekk menginginkan sesuatu, adekk akan berusaha sekuat tenaga untuk mendapatkannya. Adekk tidak mudah menyerah, dan itu selalu membuat abang bangga.</p>
+            <p>Dan ada satu hal kecil yang selalu bikin abang meleleh. Yaitu, saat adekk lagi fokus, tatapan mata adekk berubah jadi tajam dan penuh tujuan. Setiap kali abang melihat tatapan itu, rasanya abang jatuh cinta lagi dan lagi, tanpa bisa menahannya.</p>
+            <p>Sederhana, kuat, manis, dan selalu berhasil membuat abanggg tersenyum tanpa alasan.</p>
+            
+            <div class="gallery">
+                <img src="images/foto-dia-1.jpg" alt="Cantikku 1">
+                <img src="images/foto-dia-2.jpg" alt="Cantikku 2">
+                <img src="images/foto-dia-3.jpg" alt="Cantikku 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="room2" class="room hidden">
+        <button class="back-btn" onclick="backToHallway()">⬅ Kembali</button>
+        <div class="room-content">
+            <h2>Our Story 💕</h2>
+            <p>Cerita kami dimulai saat masih duduk di bangku MTs di MTs Darul Ilmi Batang Kuis. Sejak kelas tujuh hingga kelas sembilan, kami selalu berada di kelas yang sama. Di kelas delapan, perasaan itu mulai tumbuh. Momen sederhana ketika Nara mengajarkan nada lagu daerah Si Patokaan menjadi awal ketertarikan yang kemudian berkembang menjadi rasa suka.</p>
+            <p>Memasuki kelas sembilan, kami mulai saling mendekat. Jika diingat sekarang, cara kami menjalin kedekatan saat itu masih sangat polos, seperti remaja pada umumnya. Percakapan kami sederhana, kadang terasa kekanak-kanakan, termasuk cerita tentang masa depan yang saat itu belum benar-benar kami pahami. Namun justru di sanalah letak keindahannya, karena semua rasa hadir dengan tulus tanpa banyak perhitungan. Dan jika waktu bisa diputar kembali, kami tetap ingin melalui fase itu apa adanya.</p>
+            <p>Setelah lulus MTs, jalan kami sempat terpisah. Kami harus menjalani kehidupan di kota yang berbeda, dengan tujuan masing-masing. Saya yang melanjutkan pendidikan ke MAN Insan Cendekia Aceh Timur, sementara Nara tetap di Batang Kuis dan bersekolah di Madrasah Aliyah YPRA Batang Kuis. Hubungan jarak jauh membuat kami memutuskan untuk berhenti sejenak dan fokus pada diri sendiri.</p>
+            <p>Tidak diketahui bagaimana tuhan menulis takdir untuk kami, pada 19 Maret 2024, kami kembali dipertemukan. Hubungan kami berlanjut kembali, meskipun masih harus dijalani dengan jarak. Saya kini berkuliah di Universitas Jambi, sementara Nara menempuh pendidikan di UINSU di Sumatera Utara. Dalam perjalanan ini, kami sempat bertemu dua kali. Desember 2024 kami mengabadikan kebersamaan melalui sesi foto studio. Kemudian pada Maret 2025, kami mengisi waktu dengan belajar bersama di rumah Nara, berbuka puasa bersama, dan berkunjung ke Medan untuk melihat Istana Maimun.</p>
+            <p>Perjalanan kami tidak selalu berjalan mulus. Ada perbedaan, ada pertengkaran, dan ada proses saling memahami. Namun hingga hari ini, kami masih memilih untuk bertahan dan berjalan bersama. Dan bagi kami, itu adalah bagian terpenting dari cerita ini.</p>
+            
+            <div class="single-photo">
+                <img src="images/foto-kita.jpg" alt="Kita Berdua">
+            </div>
+        </div>
+    </section>
+
+    <section id="room3" class="room hidden">
+        <button class="back-btn" onclick="backToHallway()">⬅ Kembali</button>
+        <div class="room-content">
+            <h2>With All My Love 🌸</h2>
+            
+            <button class="accordion">The Day You Bloomed 💌</button>
+            <div class="panel">
+                <p>Hari ini, 22 tahun yang lalu, seseorang yang sangat spesial lahir. Abangg sangat bersyukur pada Tuhan karena telah menciptakan adekk. Kehadiran adekk membawa kebahagiaan yang sederhana tapi berarti, kebahagiaan yang tumbuh dari hal-hal kecil dan terasa hangat setiap hari. Di usia adekk yang bertambah ini, abangg berharap adekk selalu dikelilingi oleh hal-hal baik, langkah-langkah yang ringan, dan hati yang tetap penuh harapan. Terima kasih telah memberi warna pada hari-hari abang yang penuh arti pada hidup abangg</p>
+            </div>
+
+            <button class="accordion">A Future Written in Us 📜</button>
+            <div class="panel">
+                <p>Ke depan, abangg tidak berharap hubungan ini selalu berjalan tanpa masalah. Abangg hanya berharap kita selalu punya ruang untuk saling memahami, belajar, dan tumbuh bersama. Semoga setiap perbedaan bisa kita hadapi dengan kepala dingin, dan setiap kebahagiaan bisa kita syukuri tanpa berlebihan. Selama kita masih mau saling menggenggam, berjalan searah, dan menjaga satu sama lain, abangg percaya hubungan ini akan selalu punya alasan untuk dipertahankan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="room4" class="room hidden">
+        <button class="back-btn" onclick="backToHallway()">⬅ Kembali</button>
+        <div class="room-content">
+            <h2>With All My Hopes 🌼</h2>
+            <ul class="hopes-list">
+                <li>Semoga di usia 22 ini, Segala keinginan dan harapan yang adekk miliki dapat tercapai.</li>
+                <li>Semoga perkuliahan yang adek jalani saat ini dapat berjalan lancar dan dipermudah.</li>
+                <li>Semoga adekk selalu dikelilingi kebahagiaan serta kesehatan setiap hari.</li>
+                <li>Dan semoga, kita selalu bersama selamanya. Aamiin. ❤️</li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
